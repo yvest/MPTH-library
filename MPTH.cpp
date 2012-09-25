@@ -158,11 +158,17 @@ void MPTH::rightToLeft(){
 } 
 
 void MPTH::autoscroll() {
+  /* Place holder. This function doesn't work with MPTH */
+  /*
   _displayfunction = _displayfunction | 0x01;
   command(MPTH_LCD_CMD, _displayfunction);
+  */
 }
 void MPTH::noAutoscroll() {
+  /* Place holder. This function doesn't work with MPTH */
+  /*
   _displayfunction = _displayfunction & 0x06;
   command(MPTH_LCD_CMD, _displayfunction);
+  */
 }
 
