@@ -131,24 +131,31 @@ void MPTH::setBacklight(uint8_t status) {
   command(MPTH_BACKLIGHT, status);
 }
 
-/* void MPTH::scrollDisplayLeft(){
-  command(MPTH_LCD_CMD, status);
-}*/
+void MPTH::scrollDisplayLeft(){
+/* Place holder. This function doesn't work with MPTH */
+ // command(MPTH_LCD_CMD, status);
+}
 
-/*  void MPTH::scrollDisplayRight(){
-  command(MPTH_LCD_CMD, status);
-}*/
+void MPTH::scrollDisplayRight(){
+  /* Place holder. This function doesn't work with MPTH */
+  //command(MPTH_LCD_CMD, status);
+}
 
 void MPTH::leftToRight(){
+  /* Place holder. This function doesn't work with MPTH */
+  /*
   _displaycontrol = _displaycontrol | 0x04;
   command(MPTH_LCD_CMD, _displaycontrol);
+  */
 }
 
 void MPTH::rightToLeft(){
+  /* Place holder. This function doesn't work with MPTH */
+  /*
   _displaycontrol = _displaycontrol & 0x1B;
   command(MPTH_LCD_CMD, _displaycontrol);
+  */
 } 
-
 
 void MPTH::autoscroll() {
   _displayfunction = _displayfunction | 0x01;

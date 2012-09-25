@@ -31,8 +31,8 @@ public:
   void noCursor();
   void cursor();
   
-// void scrollDisplayLeft();
-//  void scrollDisplayRight();
+ void scrollDisplayLeft();
+ void scrollDisplayRight();
  void leftToRight();
  void rightToLeft();
  
