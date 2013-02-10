@@ -86,7 +86,7 @@ void MPTH::home()
   _currchar = 0;
 }
 
-void MPTH::setCursor(uint8_t x, uint8_t y){
+void MPTH::setCursor(uint8_t y, uint8_t x){
  byte pos;
  pos = (x * _numchar) + y;
  command(MPTH_MOVECUR,pos);
